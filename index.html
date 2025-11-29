@@ -3,22 +3,44 @@
 <head>
     <title>LEMON</title>
     <style>
-        body {
+        body {       
+            margin: 0;
+            padding: 0;
             background-color: #dbd55f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+        a {
+            text-decoration: none;
+            font-size: 50px;
+            color: rgb(249, 238, 18);
+            text-shadow: 2px 2px 4px #ff5050;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ffe605;
+            text-shadow: 2px 2px 8px #e6ff01;
+        }
+        
+        .box{
+            border: 5px solid #eaff00;
+            box-shadow: 0 4px 8px rgb(231, 6, 6);
+            
+            display: inline-block;
+            border-radius: 20px;
+        }
+         .box:hover {
+            border-color: #d63403;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+     
     </style>
+
 </head>
 <body>
-<div class="LEMON">  
-     <h1> LEMON</h1>
-        <style>     
-        h1 {
-            font-size: 80px;
-            margin-top:  1px;
-            text-align:center;
-            color: #f97f59;
-            background-color:rgb(255, 255, 0);
-        }
-        </style>
-        
-</div>  
+<div class="box">
+        <a href="1.jpg" target="_self">LEMON</a>
+</div> 
+</body>
